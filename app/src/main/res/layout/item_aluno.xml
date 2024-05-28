@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvRa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome" />
+
+    <TextView
+        android:id="@+id/tvCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP" />
+
+    <TextView
+        android:id="@+id/tvLogradouro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logradouro" />
+
+    <TextView
+        android:id="@+id/tvComplemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complemento" />
+
+    <TextView
+        android:id="@+id/tvBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bairro" />
+
+    <TextView
+        android:id="@+id/tvCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade" />
+
+    <TextView
+        android:id="@+id/tvUf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UF" />
+</LinearLayout>
